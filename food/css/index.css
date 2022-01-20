@@ -1,0 +1,38 @@
+body {
+  background-color: aquamarine;
+  background-image: url(../img/gallery/gallery-1.jpg);
+  background-size: cover;
+}
+.class_nav {
+  float: right;
+}
+.class_navlist {
+  list-style: none;
+  /* text-decoration: none; */
+  display: flex;
+  column-gap: 15px;
+}
+.class_navlist:hover {
+  color: brown;
+}
+h1 {
+  color: aliceblue;
+  /* vertical-align: ; */
+}
+.class_link {
+  text-decoration: none;
+}
+/* .class_nav:a {
+  gap: 200px;
+} */
+/* .class_link {
+  gap: 100px;
+} */
+.btn {
+  border-radius: 0%;
+  border: grey;
+  background-color: grey;
+}
+.btn:hover {
+  background-color: peru;
+}
